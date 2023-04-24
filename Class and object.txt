@@ -1,0 +1,18 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args) {
+        Hero obj = new Hero();
+        obj.name = "Piyush";
+        obj.age = 21;
+        
+        System.out.println("Name is : " + obj.name);
+        System.out.println("Age is :" + obj.age);
+        
+ }
+}
+
+class Hero {
+    String name;
+    int age;
+    
+}
